@@ -32,11 +32,11 @@
     <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
 
 <a-assets>
-    <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/arjanvanbekkum/arjanvanbekkum.github.io/master/augmentedreality/scene.gltf"></a-asset-item>
-    <video crossorigin="anonymous" id="BS0i6" controls="true" autoplay loop="true" type="video/mp4" preload="auto" src="https://raw.githubusercontent.com/arjanvanbekkum/arjanvanbekkum.github.io/master/augmentedreality/sw.mp4">  
+    <a-asset-item id="animated-asset" src="https://rudraks786.github.io/Agumented/scene.gltf"></a-asset-item>
+    <video crossorigin="anonymous" id="BS0i6" controls="true" autoplay loop="true" type="video/mp4" preload="auto" src="https://rudraks786.github.io/Agumented/OneWithYou.mp4">  
 </a-assets>
 
-<a-marker type="pattern" preset="custom" url="https://raw.githubusercontent.com/arjanvanbekkum/arjanvanbekkum.github.io/master/augmentedreality/epicshit.patt">
+<a-marker type="pattern" preset="custom" url="https://rudraks786.github.io/Agumented/epicshit.patt">
     <a-box position='0 0.5 0' material='opacity: 0.5; side: double'>
         <a-torus-knot radius='0.26' radius-tubular='0.05'>
             <a-animation attribute="rotation" to="360 0 0" dur="3000" easing='linear' repeat="indefinite"></a-animation>
@@ -44,12 +44,12 @@
     </a-box>
 </a-marker>
 
-<a-marker vidhandler preset="custom" type="pattern" url="https://raw.githubusercontent.com/arjanvanbekkum/arjanvanbekkum.github.io/master/augmentedreality/xmarker.patt">
+<a-marker vidhandler preset="custom" type="pattern" url="https://rudraks786.github.io/Agumented/pattern.patt">
     <a-video src="#BS0i6" width="1.4375" height="1" rotation="270 0 0"></a-video>
 </a-marker>
 
 <a-marker id="memarker" preset="hiro">
-    <a-gltf-model src="https://raw.githubusercontent.com/arjanvanbekkum/arjanvanbekkum.github.io/master/augmentedreality/scene.gltf" position="0 0 0" rotation="0 0 0" scale="0.03 0.03 0.03" animation-mixer="clip: Take 001; loop:repeat"> </a-gltf-model>
+    <a-gltf-model src="https://rudraks786.github.io/Agumented/scene.gltf" position="0 0 0" rotation="0 0 0" scale="0.03 0.03 0.03" animation-mixer="clip: Take 001; loop:repeat"> </a-gltf-model>
 </a-marker>
 
 <a-entity camera></a-entity>
