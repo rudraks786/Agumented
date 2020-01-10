@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin:0 auto;
+}
+
+#wrapper
+{
+	width:1024px;
+	height:768px;
+	position:relative;
+	background:url(../images/bg.png) no-repeat left top;
+	margin:0 auto;
+}
+
+#next
+{
+	width: 27px;
+	height: 25px;
+	position: absolute;
+	background:url("../images/right-arrow.png") no-repeat left top;
+	left: 970px;
+	top: 360px;
+	cursor: pointer;
+}
+
+#previous
+{
+	width: 27px;
+	height: 25px;
+	position: absolute;
+	background:url("../images/left-arrow.png") no-repeat left top;	
+	left: 20px;
+	top: 360px;
+	cursor: pointer;
+}
+
+#copy01
+{
+	width: 209px;
+	height: 300px;
+	position: absolute;
+	background: url(../images/copy01.png) no-repeat left top;
+	left: 134px;
+	top: 71px;
+}
+
+#copy02
+{
+	width: 209px;
+	height: 300px;
+	position: absolute;
+	background: url(../images/copy02.png) no-repeat left top;
+	left: 406px;
+	top: 71px;
+}
+
+#copy03
+{
+	width: 209px;
+	height: 300px;
+	position: absolute;
+	background: url(../images/copy03.png) no-repeat left top;
+	left: 680px;
+	top: 71px;
+}
+
+#copy04
+{
+	width: 209px;
+	height: 300px;
+	position: absolute;
+	background: url(../images/copy04.png) no-repeat left top;
+    left: 134px;
+    top: 411px;
+}
+
+#copy05
+{
+	width: 209px;
+	height: 300px;
+	position: absolute;
+	background: url(../images/copy05.png) no-repeat left top;
+	left: 406px;
+	top: 411px;
+}
+
+#copy06
+{
+	width: 209px;
+	height: 300px;
+	position: absolute;
+	background: url(../images/copy06.png) no-repeat left top;
+	left: 680px;
+	top: 411px;
+}
+
